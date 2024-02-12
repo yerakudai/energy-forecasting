@@ -74,7 +74,7 @@ Pick region `europe-west3 (Frankfurt)` and zone `europe-west3-c`
 
 Network: `default`
 
-Also, check the `HTTP` and `HTTPS` boxes and add the `energy-forecasting-expose-ports` custom firewall rule we did a few steps back.
+Also, check the `HTTP` and `HTTPS` boxes and add the `energy-forecasting-expose-ports` custom firewall rule we did a few steps back to the Network Tags (Under Advanced -> Network).
 
 Here are 2 docs that helped me create and configure the ports for the firewall rule:
 * [Doc 1](https://stackoverflow.com/questions/21065922/how-to-open-a-specific-port-such-as-9090-in-google-compute-engine)
@@ -95,7 +95,7 @@ Pick region `europe-west3 (Frankfurt)` and zone `europe-west3-c`
 
 Network: `default`
 
-Also, check the `HTTP` and `HTTPS` boxes and add the `energy-forecasting-expose-ports` custom firewall rule we created a few steps back.
+Also, check the `HTTP` and `HTTPS` boxes and add the `energy-forecasting-expose-ports` custom firewall rule we created a few steps back to the Network Tags (Under Advanced -> Network).
 
 Here are 2 docs that helped me create and configure the ports for the firewall rule:
 * [Doc 1](https://stackoverflow.com/questions/21065922/how-to-open-a-specific-port-such-as-9090-in-google-compute-engine)
